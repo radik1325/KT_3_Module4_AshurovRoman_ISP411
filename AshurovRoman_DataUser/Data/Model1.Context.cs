@@ -20,15 +20,16 @@ namespace AshurovRoman_DataUser.Data
             : base("name=DataUserEntities")
         {
         }
-        
+
         public static DataUserEntities GetContext()
         {
-            if(_context == null)
+            if (_context == null)
             {
                 _context = new DataUserEntities();
             }
             return _context;
         }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();

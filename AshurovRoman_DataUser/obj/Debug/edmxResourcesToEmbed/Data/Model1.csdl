@@ -45,8 +45,6 @@
       <PropertyRef Name="UserLogin" />
       <PropertyRef Name="UserPassword" />
       <PropertyRef Name="UserPhone" />
-      <PropertyRef Name="UserPassport" />
-      <PropertyRef Name="UserDataBirth" />
       <PropertyRef Name="UserGenderId" />
     </Key>
     <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
@@ -58,8 +56,8 @@
     <Property Name="UserLogin" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="UserPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="UserPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="UserPassport" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="UserDataBirth" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="UserPassport" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserDataBirth" Type="DateTime" Precision="0" />
     <Property Name="UserLastvxod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="UserTypevxod" Type="Int32" />
     <Property Name="UserGenderId" Type="Int32" Nullable="false" />

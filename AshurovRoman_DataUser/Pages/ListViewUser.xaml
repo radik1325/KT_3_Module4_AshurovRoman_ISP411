@@ -25,15 +25,17 @@
                                 <ColumnDefinition Width="100"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <StackPanel> 
-                                    <!-- Добавить то что горизонтально-->
+                                <StackPanel Orientation="Horizontal">
+                                    
                                     <TextBlock Text="{Binding UserLastName}"></TextBlock>
+                                    <TextBlock Text=" "></TextBlock>
                                 <TextBlock Text="{Binding UserName}"></TextBlock>
+                                    <TextBlock Text=" "></TextBlock>
                                 <TextBlock Text="{Binding UserFirstName}"></TextBlock>
                                 </StackPanel>
 
                                 <TextBlock Text="{Binding UserEmail}"></TextBlock>
-                                <TextBlock Text="{Binding UserDataBirth}"></TextBlock>
+                                <TextBlock Text="{Binding UserDataBirth }"></TextBlock>
                                 <TextBlock Text="{Binding UserPhone}"></TextBlock>
                             </StackPanel>
                             <TextBlock Text="{Binding Role.RoleName}" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>

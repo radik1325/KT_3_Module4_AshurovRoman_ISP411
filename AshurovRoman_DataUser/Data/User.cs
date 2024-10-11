@@ -24,7 +24,7 @@ namespace AshurovRoman_DataUser.Data
         public string UserPassword { get; set; }
         public string UserPhone { get; set; }
         public string UserPassport { get; set; }
-        public System.DateTime UserDataBirth { get; set; }
+        public Nullable<System.DateTime> UserDataBirth { get; set; }
         public string UserLastvxod { get; set; }
         public Nullable<int> UserTypevxod { get; set; }
         public int UserGenderId { get; set; }

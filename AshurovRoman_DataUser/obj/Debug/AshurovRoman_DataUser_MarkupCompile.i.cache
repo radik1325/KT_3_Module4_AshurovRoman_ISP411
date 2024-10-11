@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\comcuru\Desktop\Новая папка\AshurovRoman_DataUser\obj\Debug\
+C:\Users\comcuru\Desktop\Новая папка\KT_3_Module4_AshurovRoman_ISP411\AshurovRoman_DataUser\obj\Debug\
 AshurovRoman_DataUser
 none
 false
 DEBUG;TRACE
-C:\Users\comcuru\Desktop\Новая папка\AshurovRoman_DataUser\App.xaml
-2-969708144
+C:\Users\comcuru\Desktop\Новая папка\KT_3_Module4_AshurovRoman_ISP411\AshurovRoman_DataUser\App.xaml
+3606653138
 2-747231112
-16898448316
-18-157603699
-MainWindow.xaml;Pages\ListViewUser.xaml;
+17-718837414
+18-1179625989
+MainWindow.xaml;Pages\AddEditUser.xaml;Pages\ListViewUser.xaml;
 
 False
 

@@ -44,8 +44,6 @@
       <PropertyRef Name="UserLogin" />
       <PropertyRef Name="UserPassword" />
       <PropertyRef Name="UserPhone" />
-      <PropertyRef Name="UserPassport" />
-      <PropertyRef Name="UserDataBirth" />
       <PropertyRef Name="UserGenderId" />
     </Key>
     <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
@@ -57,8 +55,8 @@
     <Property Name="UserLogin" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="UserPassword" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="UserPhone" Type="nvarchar" MaxLength="50" Nullable="false" />
-    <Property Name="UserPassport" Type="nvarchar" MaxLength="50" Nullable="false" />
-    <Property Name="UserDataBirth" Type="date" Nullable="false" />
+    <Property Name="UserPassport" Type="nvarchar" MaxLength="50" />
+    <Property Name="UserDataBirth" Type="date" />
     <Property Name="UserLastvxod" Type="nvarchar" MaxLength="50" />
     <Property Name="UserTypevxod" Type="int" />
     <Property Name="UserGenderId" Type="int" Nullable="false" />

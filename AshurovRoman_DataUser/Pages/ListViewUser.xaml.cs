@@ -29,12 +29,12 @@ namespace AshurovRoman_DataUser.Pages
 
         private void AddUser_Click(object sender, RoutedEventArgs e)
         {
-
+            Classes.Manager.MainFrame.Navigate(new Pages.AddEditUser(null));
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Classes.Manager.MainFrame.Navigate(new Pages.AddEditUser((sender as Button).DataContext as Data.User));
         }
     }
 }
